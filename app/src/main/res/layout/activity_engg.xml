@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    tools:context=".engg"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="39dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    >
+
+
+    <Button
+        android:id="@+id/enggbutton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="338dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/enggbutton"
+        android:text="Engineering"
+        android:textColor="#0cd175"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/otherbutton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="338dp"
+        android:layout_height="97dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/enggbutton"
+        android:text="Other"
+        android:textColor="#0cd175"
+        android:textSize="24dp" />
+
+</RelativeLayout>

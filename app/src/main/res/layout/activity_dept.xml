@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".dept">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/comp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Computer  Engineering"
+                android:textSize="18dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:theme="@style/PrimaryButton"
+                android:background="@drawable/comp"
+                />
+
+
+            <Button
+                android:id="@+id/it"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/comp"
+                android:layout_weight="1"
+                android:text="IT  Engineering"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/it"
+                android:theme="@style/PrimaryButton"
+                />
+
+
+            <Button
+                android:id="@+id/entc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ENTC  Engineering"
+                android:layout_weight="1"
+                android:layout_below="@id/it"
+                android:textSize="18dp"
+                android:background="@drawable/comp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:theme="@style/PrimaryButton"
+
+
+                />
+            <Button
+                android:id="@+id/mech"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanical Engineering"
+                android:layout_weight="1"
+                android:layout_below="@id/entc"
+                android:textSize="18dp"
+                android:background="@drawable/comp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:theme="@style/PrimaryButton"
+
+
+
+
+                />
+            <Button
+                android:id="@+id/civil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Civil Engineering"
+                android:layout_weight="1"
+                android:layout_below="@id/mech"
+                android:textSize="18dp"
+                android:background="@drawable/comp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:theme="@style/PrimaryButton"
+
+
+                />
+
+            <Button
+                android:id="@+id/electrical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical Engineering"
+                android:layout_weight="1"
+                android:layout_below="@id/civil"
+                android:textSize="18dp"
+                android:background="@drawable/comp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"
+                android:theme="@style/PrimaryButton"
+
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

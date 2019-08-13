@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dept">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="2"
+        android:layout_row="6">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/comp"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/computer"
+                android:text="Computer"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                />
+
+    <Button
+        android:id="@+id/it"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_toRightOf="@id/comp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Information Technology"
+        android:background="@drawable/info_tech"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+
+        />
+
+    <Button
+        android:id="@+id/entc"
+        android:layout_marginLeft="5dp"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/comp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="ENTC"
+        android:background="@drawable/entc1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/civil"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        android:textSize="15dp"
+        android:text="CIVIL" />
+
+    <Button
+        android:id="@+id/mech"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/mech"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"
+        android:text="MECHANICAL" />
+
+            <Button
+                android:id="@+id/electrical"
+                android:layout_width="184dp"
+                android:layout_height="165dp"
+                android:layout_column="2"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_row="6"
+                android:background="@drawable/electrical"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+
+                android:text="Electrical" />
+
+        </GridLayout>
+    </ScrollView>
+</GridLayout>

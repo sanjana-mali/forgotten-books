@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="232dp"
+        android:layout_marginStart="44dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/phtxt"
+        android:layout_alignStart="@+id/name"
+        android:text="Phone No."
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginBottom="108dp"
+        android:text="Address"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <EditText
+        android:id="@+id/nmtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignStart="@+id/phtxt"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <EditText
+        android:id="@+id/phtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/addtxt"
+        android:layout_marginBottom="167dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/addtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addr"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="157dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/nmtxt"
+        android:layout_marginBottom="20dp"
+        android:text="GO" />
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sem">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sem1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="24dp"
+                android:text="Semister 1             >>" />
+
+            <Button
+                android:id="@+id/sem2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/sem1"
+                android:background="@drawable/button_style"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="24dp"
+                android:text="Semister 2             >>" />
+            <Button
+                android:id="@+id/sem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/sem2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Semister 3             >>"
+                android:textSize="24dp"/>
+            <Button
+                android:id="@+id/sem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/sem3"
+                android:text="Semister 4             >>"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="24dp"
+                android:background="@drawable/button_style"/>
+            <Button
+                android:id="@+id/sem5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/sem4"
+                android:text="Semister 5             >>"
+                android:textSize="24dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_style"/>
+            <Button
+                android:id="@+id/sem6"
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/sem5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Semister 6             >>"
+
+                android:background="@drawable/button_style"
+                />
+            <Button
+                android:id="@+id/sem7"
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/sem6"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Semister 7             >>"
+
+                android:background="@drawable/button_style"
+                />
+
+            <Button
+                android:id="@+id/sem8"
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/sem7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"
+                android:text="Semister 8             >>"
+
+                android:background="@drawable/button_style"
+                />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
